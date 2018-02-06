@@ -45,7 +45,7 @@ int read_config(const char* path){
 			continue;
 
 
-		/**code here to get what you want from config files **/
+		/**code here to get what you want from config file**/
 		if (!strncmp(cc, "statue", (size_t) 6) || !strncmp(cc, "SHMEM", (size_t) 5)) {
 			char valu_str[1024] = {'\0'};
 			memcpy(valu_str,ca,strlen(ca));
